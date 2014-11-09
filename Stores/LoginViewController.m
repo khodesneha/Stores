@@ -44,7 +44,6 @@
     }
 }
 
-
 -(BOOL) textFieldShouldReturn:(UITextField *)textField
 {
     [textField resignFirstResponder];
@@ -59,7 +58,6 @@
     } else {
         [self alertStatus:@"Invalid Login" :@"Signin Failed" :1];
     }
-    
 }
 
 - (void) alertStatus: (NSString *) msg : (NSString *) title : (int) tag {
